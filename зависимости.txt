@@ -1,6 +1,0 @@
-pandas
-matplotlib
-jupyterlab
-gdown
-wget
-ipykernel
