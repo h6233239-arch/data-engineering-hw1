@@ -25,6 +25,9 @@ Since the data is fully synthetic, it is safe for public use and contains no per
 
       raw_data.head(10) 
      print(raw_data.head(10))
+     
+![Скриншот1](Скриншот1.png)
+![Скриншот2](Скриншот2.png)
 ## Зависимости 
     pandas
     matplotlib
