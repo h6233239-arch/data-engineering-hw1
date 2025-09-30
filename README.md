@@ -61,7 +61,7 @@ Since the data is fully synthetic, it is safe for public use and contains no per
      print(f"Обработанный файл сохранен: {output_file}")
      print(df.dtypes)
 
-![скриншот3](скриншот3.jpg)
+
      
 ## Зависимости 
     pandas
