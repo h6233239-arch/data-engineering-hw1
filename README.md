@@ -70,3 +70,7 @@ Since the data is fully synthetic, it is safe for public use and contains no per
     gdown
     wget
     ipykernel
+
+
+## Рендер ноутбука с EDA
+[Рендер ноутбука с EDA через nbviewer](https://nbviewer.org/github/h6233239-arch/data-engineering-hw1/blob/main/notebooks/EAD.ipynb)
