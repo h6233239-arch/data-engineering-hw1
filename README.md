@@ -11,7 +11,7 @@
     - [🟡 Transform](#-transform)
     - [🔵 Load](#-load)
 - [🛠️ Зависимости проекта](#️-зависимости-проекта)
-- [EDA](#eda)
+
 
 
 
@@ -133,5 +133,5 @@ python etl/main.py (file-id)
 
 
 
-## [EDA](notebooks/EDA.ipynb)
+
 
