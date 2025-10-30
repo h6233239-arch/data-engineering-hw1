@@ -66,21 +66,21 @@ def transform_data(df: pd.DataFrame, output_path: str = "data/processed/clean_da
     # ----------- Удаление дубликатов -----------
     df = df.drop_duplicates()
 
-    print(f"✅ Данные очищены: исходно {original_rows} строк, после очистки {df.shape[0]} строк")
+    print(f" Данные очищены: исходно {original_rows} строк, после очистки {df.shape[0]} строк")
 
     # ----------- Сохранение в CSV -----------
     if output_path:
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         df.to_csv(output_path, index=False, encoding="utf-8")
-        print(f"✅ Очищенные данные сохранены в CSV: {output_path}")
+        print(f" Очищенные данные сохранены в CSV: {output_path}")
 
         # ----------- Сохранение в Parquet -----------
         parquet_path = os.path.splitext(output_path)[0] + ".parquet"
         df.to_parquet(parquet_path, index=False)
-        print(f"✅ Очищенные данные сохранены в Parquet: {parquet_path}")
+        print(f" Очищенные данные сохранены в Parquet: {parquet_path}")
 
     # ----------- Валидация выходных параметров -----------
-    print("\n📊 Валидация выходных параметров:")
+    print("\n Валидация выходных параметров:")
     print(f"- Количество строк: {df.shape[0]}")
     print(f"- Количество колонок: {df.shape[1]}")
     print(f"- Названия колонок и типы:\n{df.dtypes}")
