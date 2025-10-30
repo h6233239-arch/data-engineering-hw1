@@ -40,7 +40,7 @@ python etl/main.py (file-id)
 ### ⚙ Запуск отдельных этапов
 ```
  #Только извлечение данных
-python etl/extract.py 
+   python etl/extract.py 
 
  # Только очистка и преобразование
    python etl/transform.py  
