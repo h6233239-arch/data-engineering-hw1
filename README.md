@@ -46,7 +46,7 @@ python etl/main.py (file-id)
    python etl/transform.py  
 
  # Только загрузка в базу данных
-   python load.py
+   python etl/load.py
 ```
 ### 📦 Функциональность ETL
 
