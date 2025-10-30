@@ -32,22 +32,21 @@
 
 
 ```
-python -m etl.main run --file-id 1e_B0JuGIwMeVWKbchUdzw8xcAkh0hPbX
+python etl/main.py (file-id)
 ```
-Параметр --file-id — это ID файла на Google Drive, например часть ссылки: https: //drive.google.com/file/d/<file_id>/view
+Параметр file-id — это ID файла на Google Drive, например часть ссылки: https: //drive.google.com/file/d/<file_id>/view
 
 
 ### ⚙ Запуск отдельных этапов
 ```
  #Только извлечение данных
-python -m etl.main extract --file-id 1e_B0JuGIwMeVWKbchUdzw8xcAkh0hPbX
-
+python etl/extract.py 
 
  # Только очистка и преобразование
-python -m etl.main transform --input data/raw/raw_data.csv
+   python etl/transform.py  
 
  # Только загрузка в базу данных
-python -m etl.main load --input data/processed/clean_data.parquet --table patients_data
+   python load.py
 ```
 ### 📦 Функциональность ETL
 
