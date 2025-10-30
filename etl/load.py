@@ -1,6 +1,6 @@
 import os
 import sqlite3
-import psycopg2
+import psycopg2-binary
 import pandas as pd
 
 def load_data(df: pd.DataFrame = None):
