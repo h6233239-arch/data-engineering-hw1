@@ -8,7 +8,7 @@
 ## API
 - Название: OpenWeatherMap
 - Ссылка: [https://openweathermap.org/api](https://openweathermap.org/api)
-- Требуется API ключ (API_KEY)
+- Требуется API ключ (API_KEY), который можно создать на сайте.
 
 ## Структура скрипта
 1. Список городов  
