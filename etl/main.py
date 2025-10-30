@@ -14,13 +14,13 @@ def main():
     file_id = sys.argv[1].strip()
     print(f" Получен file_id: {file_id}")
 
-    # 1️⃣ Extract
+    #Extract
     df_raw = extract_data(file_id)
 
-    # 2️⃣ Transform
+    #Transform
     df_clean = transform_data(df_raw)
 
-    # 3️⃣ Load
+    #Load
     load_data(df_clean)
 
     print(" Процесс ETL успешно завершён!")
