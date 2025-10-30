@@ -54,6 +54,16 @@
 │   │   EDA.ipynb
 ```        
 
+## Установка 
+   - Создание и активация окружения
+     ```
+     conda create -n my_env python=3.13 pip
+     conda activate my_env
+     ```
+  - Установка зависимостей 
+     ```
+     pip install -r requirements.txt
+     ```
 
 
 ##  ETL-пакет для обработки медицинских данных
