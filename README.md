@@ -1,19 +1,21 @@
-# Asthma Risk & Severity Dataset
+# Набор данных о риске и степени тяжести астмы
 
-   ### [About Dataset](https://drive.google.com/file/d/1e_B0JuGIwMeVWKbchUdzw8xcAkh0hPbX/view?usp=drive_link)
-   This synthetic dataset simulates health records of individuals with varying levels of asthma severity. It is designed to support predictive modeling, classification, and exploratory analysis in the healthcare domain.
+### [Описание набора данных](https://drive.google.com/file/d/1e_B0JuGIwMeVWKbchUdzw8xcAkh0hPbX/view?usp=drive_link)
 
-The dataset contains patient-level data such as demographics, lifestyle factors, environmental exposures, and medical indicators that are known to influence asthma risk and severity.
+Этот синтетический набор данных моделирует медицинские записи людей с различными степенями тяжести астмы.  
+Он создан для поддержки задач предсказательного моделирования, классификации и исследовательского анализа в области здравоохранения.
 
-Use cases include:
+Набор данных содержит информацию на уровне пациента, включая демографические характеристики, образ жизни, воздействие факторов окружающей среды и медицинские показатели, которые влияют на риск и степень тяжести астмы.
 
-- [Asthma severity prediction]
-- [Health risk scoring]
-- [Impact analysis of factors like pollution, BMI, or smoking]
-- [Educational machine learning tasks]
+Возможные сценарии использования:
 
+- [Прогнозирование степени тяжести астмы]  
+- [Оценка риска для здоровья]  
+- [Анализ влияния факторов, таких как загрязнение, индекс массы тела (BMI) или курение]  
+- [Образовательные задачи машинного обучения]
 
-Since the data is fully synthetic, it is safe for public use and contains no personal or sensitive information.
+Так как данные полностью синтетические, они безопасны для публичного использования и не содержат персональной или конфиденциальной информации.
+
 
      
 
