@@ -45,7 +45,7 @@
 │   README.md
 │   requirements.txt
 │   ├───api_example
-│   │   api_reader.py
+│   │   api_reader.py     #Сбор данных о погоде для городов России по API
 │   │   README.md
 │   │   requirements.txt
 │   ├───etl
