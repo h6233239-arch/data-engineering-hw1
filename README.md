@@ -49,13 +49,13 @@
 │   │   README.md
 │   │   requirements.txt
 │   ├───etl
-│   │   extract.py
-│   │   load.py
+│   │   extract.py   #загрузка исходных данных из Google Drive
+│   │   load.py      #загрузка в базу данных
 │   │   main.py
-│   │   transform.py
+│   │   transform.py  #очистка, нормализация и валидация данных
 │   │   __init__.py
 │   ├───notebooks
-│   │   EDA.ipynb
+│   │   EDA.ipynb    # полный анализ 
 ```        
 ---
 ## Установка 
